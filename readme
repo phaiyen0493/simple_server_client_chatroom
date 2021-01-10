@@ -1,0 +1,20 @@
+Name: Yen Pham
+CSCE3530
+Project 1
+
+How to compile server file: gcc server.c -pthread
+Execute: ./a.out
+
+How to compile client file: gcc client.c -pthread
+Execute: ./a.out
+
+Server needs to be run on cse01.cse.unt.edu machine. 
+Clients can be run in any UNT machines.
+
+How it works: Clients can type any messages in both capitalized and lowercased. 
+Server will process the message, count number of words, characters, vowels 
+and send back the procceed messages to clients. 
+New message will be all in lower case; number of words, characters and vowels 
+will also be displayed on client's screen.
+
+If not used, client can quit by typing "quit"
